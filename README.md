@@ -30,6 +30,8 @@ Before running Sukuna.py, you need to install the required dependencies. Follow 
 
 ###Running Sukuna.py
 To run Sukuna.py, use the following command as the root user:
+
+
 ```bash
    sudo python3 sukuna.py
 
