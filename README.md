@@ -21,17 +21,15 @@ Before running Sukuna.py, you need to install the required dependencies. Follow 
    sudo apt-get update
 
 2. Install Aircrack-ng:
-3. 
+   ```bash 
    sudo apt-get install aircrack-ng
 
 4. Install Python packages from requirements.txt:
-5. 
+  ```bash
    pip install -r requirements.txt
 
 ###Running Sukuna.py
 To run Sukuna.py, use the following command as the root user:
-
-
 ```bash
    sudo python3 sukuna.py
 
