@@ -16,14 +16,14 @@ Follow these steps to use Sukuna.py:
 
 Before running Sukuna.py, make sure to install the required Python packages. You can do this using the following command:
 
-pip install -r requirements.txt
+**pip install -r requirements.txt**
 
 
 ### Step 2: Running Sukuna.py
 
 To run Sukuna.py, use the following command as the root user:
 
-sudo python3 sukuna.py
+**sudo python3 sukuna.py**
 
 ### Usage
 
@@ -41,7 +41,7 @@ It will start scanning that WiFi and sending deauth attack.
 
 You have to wait untill Handshake captured is displayed on screen.
 
-	**Press Ctrl+C after that** 
+***Press Ctrl+C after that***
  
 The Target Handshake file will be saved in the targets folder then you have to run the program again and this time click on Cracking.
 
