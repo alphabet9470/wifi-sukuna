@@ -25,17 +25,16 @@ Before running Sukuna.py, you need to install the required dependencies. Follow 
    sudo apt-get install aircrack-ng
 
 4. Install Python packages from requirements.txt:
-  ```bash
+   ```bash 
    pip install -r requirements.txt
 
-###Running Sukuna.py
+### Running Sukuna.py
 To run Sukuna.py, use the following command as the root user:
-```bash
+   ```bash 
    sudo python3 sukuna.py
 
 
-
-### Usage
+# Usage
 
 Once you've launched Sukuna.py, you can perform various tasks, including scanning for available WiFi networks and analyzing captured handshakes.
 
