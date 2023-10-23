@@ -28,7 +28,7 @@ Before running Sukuna.py, you need to install the required dependencies. Follow 
    ```bash 
    pip install -r requirements.txt
 
-5. Running Sukuna.py
+5. Running Sukuna.py<br>
 
 To run Sukuna.py, use the following command as the root user:
    ```bash 
