@@ -15,9 +15,9 @@ Follow these steps to use Sukuna.py:
 ### Step 1: Install Dependencies
 
 Before running Sukuna.py, make sure to install the required Python packages. You can do this using the following command:
-**sudo apt-get update**
+**sudo apt-get update**<br>
 
-**sudo apt-get install aircrack-ng**
+**sudo apt-get install aircrack-ng**<br>
 
 **pip install -r requirements.txt**
 
