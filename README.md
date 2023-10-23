@@ -30,14 +30,23 @@ sudo python3 sukuna.py
 Once you've launched Sukuna.py, you can perform various tasks, including scanning for available WiFi networks and analyzing captured handshakes.
 
 Click on Monitor Mode[It will start the Monitor Mode ].
+
 Again Run the Program and Click on Scan ( It will start scanning all WiFi Networks ).
+
 ***Note: To stop any ongoing scanning process, simply press Ctrl + C.***
+
 Then select any particular WiFi and Enter the BSSID and CH number of that wifi.
+
 It will start scanning that WiFi and sending deauth attack.
+
 You have to wait untill Handshake captured is displayed on screen.
+
 	**Press Ctrl+C after that** 
+ 
 The Target Handshake file will be saved in the targets folder then you have to run the program again and this time click on Cracking.
+
 In the "cracking" option, you'll be prompted to enter the last serial digit of the handshake capture (CAP) file that you want to analyze and attempt to crack.
+
 ***Note:***
 Enter the serial digit correctly (e.g: 01 )
 
