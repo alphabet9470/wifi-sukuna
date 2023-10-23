@@ -29,8 +29,8 @@ sudo python3 sukuna.py
 
 Once you've launched Sukuna.py, you can perform various tasks, including scanning for available WiFi networks and analyzing captured handshakes.
 
-Click on Monitor Mode
-Click on Scan ( It will start scanning all WiFi Networks )
+Click on Monitor Mode[It will start the Monitor Mode ]
+Again Run the Program and Click on Scan ( It will start scanning all WiFi Networks )
 ***Note: To stop any ongoing scanning process, simply press Ctrl + C.***
 Then select any particular WiFi and Enter the BSSID and CH number of that wifi
 It will start scanning that WiFi and sending deauth attack
