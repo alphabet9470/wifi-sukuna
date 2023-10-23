@@ -20,6 +20,7 @@ def solo_target():
     x.wait()
 
 def scanner():
+    time.sleep(2)
     command_3 = "sudo airodump-ng "+interface_name[5]
     prYellow("Scanning has been started... Press Ctrl+C to Stop")
     airodump_process = subprocess.Popen(command_3,shell=True)
