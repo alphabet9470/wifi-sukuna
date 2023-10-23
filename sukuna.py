@@ -74,22 +74,18 @@ prRed("Know Your Place Fool...")
 time.sleep(1)
 command_output = subprocess.getoutput('sudo /usr/sbin/airmon-ng')
 interface_name = command_output.split()
-user_input = int(input("\nPress (1)  Monitor Mode \nPress (2) for Managed Mode\nPress (3) For Exit\n>>>"))
+user_input = int(input("\nPress (1)  Monitor Mode \nPress (2) for Managed Mode\nPress (3) For Scan\nPress (4) For Crack\n>>>"))
 if user_input == 1:
     command_1 = "sudo airmon-ng start "+interface_name[5]
     subprocess.run(command_1,shell=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True)
     prGreen("Monitor Mode has been Enabled")
-    user_input = int(input("Press (1) For Scan \nPress (2) For Cracking\nPress (3) For Exit\n>>>"))
-    if user_input==1:
-        scanner()
-    elif user_input==2:
-        target_cap = input("Enter the last number of the Handshake [e.g: 01]\n>>>")
-        command_6 = ["sudo", "aircrack-ng", "-w", "wordlist.txt", f"targets/target_wifi-{target_cap}.cap"]
-        subprocess.run(command_6)
-    elif user_input==3:
-        prYellow("\nExiting the Program!")
-    else:
-        prRed("Error 404")
+
+elif user_input==3:
+    scanner()
+elif user_input==2:
+    target_cap = input("Enter the last number of the Handshake [e.g: 01]\n>>>")
+    command_6 = ["sudo", "aircrack-ng", "-w", "wordlist.txt", f"targets/target_wifi-{target_cap}.cap"]
+    subprocess.run(command_6)
 elif user_input == 2:
     command_2 = "sudo airmon-ng stop "+interface_name[5]
     subprocess.run(command_2,shell=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True)
