@@ -37,8 +37,8 @@ Before running Sukuna.py, you need to install the required dependencies. Follow 
 
 Once you've launched Sukuna.py, you can perform various tasks, including scanning for available WiFi networks and analyzing captured handshakes.
 
-Click on Monitor Mode(It will Enable the Monitor Mode)<br>
-Restart the Tool<br>
+Click on Monitor Mode(It will Enable the Monitor Mode)<br><br>
+Restart the Tool<br><br>
 Click on Scan ( It will start scanning all WiFi Networks )
 
 
