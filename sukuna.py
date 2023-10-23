@@ -70,7 +70,7 @@ prRed('''
 ⠀⠀⠘⠃⢼⡿⢿⣁⣠⡾⢻⣀⡀⠀⠈⢧⡀⠀⣰⠡⠐⠒⠋⠈⠉⠁⠈⢶⣿⣷''')
 prGreen("\nMoron.... So you wanna Hack WiFi.")
 time.sleep(1)
-prRed("Know Your Place Fool...")
+prRed("\nKnow Your Place Fool...")
 time.sleep(1)
 command_output = subprocess.getoutput('sudo /usr/sbin/airmon-ng')
 interface_name = command_output.split()
